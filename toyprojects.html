@@ -1,15 +1,15 @@
 ---
 layout: default
-title: ToyCodes
+title: ToyProjects
 ---
 
 <div>
 
-  <h2>ToyCodes</h2>
+  <h2>ToyProjects</h2>
 
   <section class="archive_list">
     {% for post in site.posts %}
-    {% if post.toycode %}
+    {% if post.toyproject %}
     <div class="post_title">
       <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title}}</a>
       <span class="date">{{ post.date | date: "%-d %b, %Y" }}</span>
