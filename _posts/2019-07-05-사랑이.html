@@ -1,0 +1,128 @@
+---
+layout: post
+title:  "사랑이"
+date: 2019-07-05
+result: true
+---
+<style>
+    .bg {
+        position: relative;
+        width: 100%;
+        height: 700px;
+        background-color: #fbe4f0; }
+
+    .face {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 300px;
+        height: 300px;
+        margin-top: -150px;
+        margin-left: -150px;
+        border-radius: 50%;
+        background-color: #fff; }
+
+    .eye {
+        position: absolute;
+        top: 160px;
+        width: 12px;
+        height: 12px;
+        background-color: #000;
+        border-radius: 50%; }
+    .eye.left {
+        left: 120px; }
+    .eye.right {
+        right: 120px; }
+
+    .nose {
+        position: absolute;
+        top: 190px;
+        left: 135px;
+        width: 30px;
+        height: 20px;
+        border-radius: 30px;
+        background-color: #000; }
+
+    .cheek {
+        display: none;
+        position: absolute;
+        top: 180px;
+        width: 40px;
+        height: 20px;
+        border-radius: 30px;
+        background-color: #fbe4f0; }
+    .cheek.left {
+        left: 40px; }
+    .cheek.right {
+        right: 40px; }
+
+    .heart {
+        display: none;
+        position: absolute;
+        top: 22%;
+        left: 50%;
+        width: 20px;
+        height: 20px;
+        margin-left: -10px;
+        background-color: #f9a8d2;
+        transform: rotate(-45deg);
+        animation-duration: 1s;
+        animation-name: jumping;
+        animation-iteration-count: infinite; }
+    .heart:before, .heart:after {
+        position: absolute;
+        content: "";
+        background-color: #f9a8d2;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px; }
+    .heart:before {
+        top: -10px; }
+    .heart:after {
+        left: 10px; }
+
+    .text {
+        position: absolute;
+        top: 75%;
+        left: 50%;
+        width: 76px;
+        margin-left: -38px;
+        color: #fff;
+        text-align: center;
+        font-size: 14px; }
+
+    @keyframes jumping {
+        from {
+            top: 22%; }
+        to {
+            top: 18%; } }
+
+</style>
+<section class="bg">
+    <div class="heart"></div>
+    <section class="face" id="sarang">
+        <section class="eye left"></section>
+        <section class="eye right"></section>
+        <section class="nose"></section>
+        <section class="cheek left"></section>
+        <section class="cheek right"></section>
+    </section>
+    <section class="text">TOUCH ME</section>
+</section>
+<script
+        src="https://code.jquery.com/jquery-1.12.4.js"
+        integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+        crossorigin="anonymous"></script>
+<script>
+    $(function() {
+        $('#sarang').mouseenter(function() {
+            $(this).find('.cheek').fadeIn();
+            $(this).siblings('.heart').fadeIn();
+        });
+
+        $('#sarang').mouseleave(function() {
+            $(this).find('.cheek').fadeOut();
+            $(this).siblings('.heart').fadeOut();
+        });
+    });
+</script>
