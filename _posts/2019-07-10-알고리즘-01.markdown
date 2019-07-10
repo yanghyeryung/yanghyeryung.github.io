@@ -1,0 +1,51 @@
+---
+layout: post
+title:  "알고리즘 01"
+date: 2019-07-10
+categories: Hello-Coding-알고리즘
+---
+# [알고리즘](https://github.com/yanghyeryung/book-study/tree/master/hello-coding-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/01)
+- 어떤 일을 하기 위한 명령의 집합
+
+## 이진탐색
+- 1부터 100까지의 숫자 중에서 한개의 숫자를 찾는 경우
+    - 단순 탐색은 1부터 100까지 순서대로 찾는 방식 (100을 찾을 경우 100번 수행)
+    - 이진 탐색은 중간에서부터 시작하여 더 빨리 탐색 가능
+    - 이진 탐색은 100 -> 50 -> 25 -> 13 -> 7 -> 4 -> 2 -> 1와 같은 순서로 최대 7번 안에 탐색을 완료
+- 이진 탐색은 리스트의 원소들이 정렬되어 있어야만 사용 가능 
+
+{% highlight ruby %}
+function binary_search(list, item) {
+    var low = 0,
+        high = list.length - 1,
+        mid,
+        guess;
+
+    while (low<=high) {
+        mid = parseInt((low + high) / 2);
+        guess = list[mid];
+
+        if(guess === item)
+            return mid;
+        if(guess > item) {
+            high = mid - 1;
+        } else {
+            low = mid + 1;
+        }
+    }
+
+    return null;
+}
+
+binary_search([1, 3, 5, 7, 9], 3);
+binary_search([1, 3, 5, 7, 9], -1);
+{% endhighlight %}
+
+## 빅오표기법
+- **연산횟수**로 알고리즘의 속도를 나타내는 방법 예) O(n), O(log2(n))
+- 자주 사용되는 빅오 표기법 (속도가 빠른 순으로 나열)
+    - O(log2(n)) : 로그시간 예) 이진탐색 
+    - O(n) : 선형시간 예) 단순탐색
+    - O(n*log2(n)) : 예) 퀵정렬
+    - O(n**2) : 예) 선택정렬
+    - O(n!): 예) 외판원문제 
