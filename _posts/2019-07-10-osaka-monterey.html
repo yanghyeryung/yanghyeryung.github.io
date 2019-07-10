@@ -1,0 +1,68 @@
+---
+layout: post
+title:  "오사카몬토레"
+date: 2019-07-10
+toycode: true
+---
+<style>
+    .curtain {
+        position: relative;
+        width: 600px;
+        height: 400px;
+        overflow: hidden;}
+
+    @media ( max-width: 600px ) {
+        .curtain {
+            width: 100%;
+        }
+    }
+
+    .curtain-wrap {
+        width: 100%;
+        height: 100%; }
+
+    .curtain-panel {
+        width: 50%;
+        height: 100%;
+        float: left;
+        position: relative;
+        z-index: 2;
+        transition: all 1s ease-out;
+        background-color: #fff;
+        background: linear-gradient(to right, rgba(204, 204, 204, 0.85), rgba(255, 255, 255, 0.95), rgba(204, 204, 204, 0.9)), linear-gradient(to right, transparent 2%, white, rgba(204, 204, 204, 0.5), white);
+        background-size: 67px 67px, 53px 53px; }
+    .curtain-panel.left {
+        transform: translateX(-100%); }
+    .curtain-panel.right {
+        transform: translateX(100%); }
+
+    .panel {
+        position: absolute;
+        z-index: 1;
+        left: 0;
+        right: 0;
+        background: #1f2021;
+        text-align: center; }
+
+    input[type=checkbox] {
+        position: absolute;
+        cursor: pointer;
+        width: 100%;
+        height: 100%;
+        z-index: 100;
+        opacity: 0; }
+    input[type=checkbox]:checked ~ .curtain-panel.left {
+        transform: translateX(0); }
+    input[type=checkbox]:checked ~ .curtain-panel.right {
+        transform: translateX(0); }
+</style>
+<section class="curtain">
+    <section class="curtain-wrap">
+        <input type="checkbox" checked/>
+        <section class="curtain-panel left"></section>
+        <section class="panel">
+            <img src="{{site.url}}/assets/img/osaka.jpeg"/>
+        </section>
+        <section class="curtain-panel right"></section>
+    </section>
+</section>
