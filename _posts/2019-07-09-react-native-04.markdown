@@ -9,7 +9,7 @@ categories: react-native
 ## 기본 컴포넌트
 
 ### `<Text>`
-
+- 리액트 네이티브는 `<Text>` 컴포넌트만이 텍스트 노드를 자식으로 갖음
 - 리액트 네이티브는 같은 스타일을 반복적으로 적용해야 할 경우 컴포넌트의 재사용을 권장
 
 {% highlight ruby %}
@@ -29,7 +29,8 @@ class Em extends Component {
 {% endhighlight %}
 
 ### `<Image>`
-
+- 파일명.ios.png, 파일명.androig.png로 파일명을 지정하면 플랫폼에 해당하는 이미지 사용
+- 파일명@2x.png, 파일명@3x.png로 파일명을 지정하면 디바이스 화면 밀도에 맞는 이미지 사용 
 - 웹에 있는 이미지 소스를 사용해야 할 경우 이미지 사이즈를 따로 지정
 
 {% highlight ruby %}
