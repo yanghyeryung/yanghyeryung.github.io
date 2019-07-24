@@ -9,8 +9,8 @@ categories: react-native
 ## iOS 혹은 안드로이드만을 위한 컴포넌트
 - 특정 플랫폼에서만 동작하는 컴포넌트
     - 특정 플랫폼에 맞는 접미사를 붙임.
-    - IOS : '<TabBarIOS>'
-    - Android : '<SwitchAndroid>'
+    - IOS : `<TabBarIOS>`
+    - Android : `<SwitchAndroid>`
 - 특정 플랫폼에서만 사용가능한 컴포넌트 props
     - IOS : 'https://facebook.github.io/react-native/docs/view#accessibilityviewismodal
     - Android : 'https://facebook.github.io/react-native/docs/view#accessibilityliveregion
