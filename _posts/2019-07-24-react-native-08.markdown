@@ -50,5 +50,5 @@ const styles = StyleSheet.create({
 
 ## 언제 플랫폼 특정 컴포넌트를 사용?
 - 해당 플랫폼의 인터렉션 패턴을 따르고 싶은 경우 사용 
-    - IOS : https://developer.apple.com/design/human-interface-guidelines/ios/overview/themes
-    - Android : https://developer.android.com/design/index.html
+    - IOS : [iOS Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/ios/overview/themes)
+    - Android : [Android Design Reference](https://developer.android.com/design/index.html)
