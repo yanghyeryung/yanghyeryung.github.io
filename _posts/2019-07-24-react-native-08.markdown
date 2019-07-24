@@ -12,12 +12,12 @@ categories: react-native
     - IOS : `<TabBarIOS>`
     - Android : `<SwitchAndroid>`
 - 특정 플랫폼에서만 사용가능한 컴포넌트 props
-    - IOS : 'https://facebook.github.io/react-native/docs/view#accessibilityviewismodal
-    - Android : 'https://facebook.github.io/react-native/docs/view#accessibilityliveregion
+    - IOS : [view#accessibilityviewismodal](https://facebook.github.io/react-native/docs/view#accessibilityviewismodal)
+    - Android : [view#accessibilityliveregion](https://facebook.github.io/react-native/docs/view#accessibilityliveregion)
 
 ## 플랫폼별로 구현되어 있는 컴포넌트
 ### 파일 확장자로 플랫폼 선택하기
-- 'Newsflash.android.js' / 'Newsflash.ios.js'와 같이 중간 확장자로 파일 구분
+- `Newsflash.android.js` / `Newsflash.ios.js`와 같이 중간 확장자로 파일 구분
 - import 시 리액트 네이티브가 각 플랫폼에 맞는 확장자를 선택하여 불러온다.
 
 {% highlight ruby %}
@@ -50,5 +50,5 @@ const styles = StyleSheet.create({
 
 ## 언제 플랫폼 특정 컴포넌트를 사용?
 - 해당 플랫폼의 인터렉션 패턴을 따르고 싶은 경우 사용 
-    - https://developer.apple.com/design/human-interface-guidelines/ios/overview/themes
-    - https://developer.android.com/design/index.html
+    - IOS : https://developer.apple.com/design/human-interface-guidelines/ios/overview/themes
+    - Android : https://developer.android.com/design/index.html
