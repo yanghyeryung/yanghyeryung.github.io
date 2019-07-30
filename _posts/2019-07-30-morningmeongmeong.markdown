@@ -2,9 +2,9 @@
 layout: post
 title:  "모닝멍멍"
 date: 2019-07-30
-categories: react-native
+toyproject: true
 ---
-# 모닝멍멍
+# [모닝멍멍](https://github.com/yanghyeryung/morning-meongmeong)
 
 ## 앱 설명
 - 멍멍이 소리가 나는 알람 앱
