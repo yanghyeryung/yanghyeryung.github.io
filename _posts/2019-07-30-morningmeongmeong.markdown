@@ -37,3 +37,5 @@ toyproject: true
 
 ![알람 화면]({{site.url}}/assets/img/morningmeongmeong/alarm.png) 
 
+## 사용기술
+- React Native 
