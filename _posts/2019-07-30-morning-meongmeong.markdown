@@ -25,7 +25,7 @@ toyproject: true
 ![생성 수정 화면]({{site.url}}/assets/img/morningmeongmeong/addedit.png)
 
 ### 삭제 화면
-- 목록에서 스와이프를 통해 삭제 버튼이 보여짐.
+- 목록에서 LongPress를 통해 삭제 버튼이 보여짐.
 - 삭제 버튼 클릭시 삭제
 
 ![삭제 화면]({{site.url}}/assets/img/morningmeongmeong/delete.png)
