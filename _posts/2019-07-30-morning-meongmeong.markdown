@@ -17,25 +17,43 @@ toyproject: true
 - 목록은 오전/오후, 시간, 일의 정보로 구성
 - 토글 버튼으로 알람 온오프
 
-![목록 조회 화면]({{site.url}}/assets/img/morningmeongmeong/list.png)
+![목록 조회 화면]({{site.url}}/assets/img/morningmeongmeong/list.png){:width="300px"}
 
 ### 생성 수정 화면
 - 타임피커, 일, 멍멍이 수, 멍멍이 속도로 구성
 
-![생성 수정 화면]({{site.url}}/assets/img/morningmeongmeong/addedit.png)
+![생성 수정 화면]({{site.url}}/assets/img/morningmeongmeong/addedit.png){:width="300px"}
 
 ### 삭제 화면
 - 목록에서 LongPress를 통해 삭제 버튼이 보여짐.
 - 삭제 버튼 클릭시 삭제
 
-![삭제 화면]({{site.url}}/assets/img/morningmeongmeong/delete.png)
+![삭제 화면]({{site.url}}/assets/img/morningmeongmeong/delete.png){:width="300px"}
 
 ### 알람 화면
 - 설정한 멍멍이 수와 멍멍이 속도의 값으로 멍멍이 얼굴이 나와서 움직임.
 - 멍멍이를 모두 터치해야 알람이 꺼짐
 - 멍멍이 소리는 4단계로 구성됨. (20초가 지나면 다음 단계의 소리가 나옴)
 
-![알람 화면]({{site.url}}/assets/img/morningmeongmeong/alarm.png) 
+![알람 화면]({{site.url}}/assets/img/morningmeongmeong/alarm.png){:width="300px"}
 
 ## 사용기술
 - React Native 
+
+## 데모
+
+### 목록 조회 화면
+
+![목록 조회 화면]({{site.url}}/assets/img/morningmeongmeong/list.gif){:width="300px"}
+
+### 생성 수정 화면
+
+![생성 수정 화면]({{site.url}}/assets/img/morningmeongmeong/addedit.gif){:width="300px"}
+
+### 삭제 화면
+
+![삭제 화면]({{site.url}}/assets/img/morningmeongmeong/delete.gif){:width="300px"}
+
+### 알람 화면
+
+![알람 화면]({{site.url}}/assets/img/morningmeongmeong/alarm.gif){:width="300px"}
