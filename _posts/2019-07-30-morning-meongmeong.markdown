@@ -42,4 +42,6 @@ toyproject: true
 
 ## 데모
 
-![데모 화면]({{site.url}}/assets/img/morningmeongmeong/result.gif){:width="300px"}
+<video autoplay="autoplay" loop="loop" width="300">
+  <source src="{{site.url}}/assets/img/morningmeongmeong/result.webm" type="video/webm">
+</video>
