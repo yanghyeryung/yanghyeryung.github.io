@@ -33,7 +33,7 @@ toyproject: true
 ### 알람 화면
 - 설정한 멍멍이 수와 멍멍이 속도의 값으로 멍멍이 얼굴이 나와서 움직임.
 - 멍멍이를 모두 터치해야 알람이 꺼짐
-- 멍멍이 소리는 4단계로 구성됨. (20초가 지나면 다음 단계의 소리가 나옴)
+- 멍멍이 소리는 3단계로 구성됨. (15초가 지나면 다음 단계의 소리가 나옴)
 
 ![알람 화면]({{site.url}}/assets/img/morningmeongmeong/alarm.png){:width="300px"}
 
@@ -42,18 +42,4 @@ toyproject: true
 
 ## 데모
 
-### 목록 조회 화면
-
-![목록 조회 화면]({{site.url}}/assets/img/morningmeongmeong/list.gif){:width="300px"}
-
-### 생성 수정 화면
-
-![생성 수정 화면]({{site.url}}/assets/img/morningmeongmeong/addedit.gif){:width="300px"}
-
-### 삭제 화면
-
-![삭제 화면]({{site.url}}/assets/img/morningmeongmeong/delete.gif){:width="300px"}
-
-### 알람 화면
-
-![알람 화면]({{site.url}}/assets/img/morningmeongmeong/alarm.gif){:width="300px"}
+![데모 화면]({{site.url}}/assets/img/morningmeongmeong/result.gif){:width="300px"}
