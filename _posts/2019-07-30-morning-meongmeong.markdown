@@ -4,9 +4,10 @@ title:  "모닝멍멍"
 date: 2019-07-30
 toyproject: true
 ---
-# [모닝멍멍](https://github.com/yanghyeryung/morning-meongmeong)
+## 깃 레파지토리
+[https://github.com/yanghyeryung/morning-meongmeong](https://github.com/yanghyeryung/morning-meongmeong)
 
-## 앱 설명
+## 설명
 - 멍멍이 소리가 나는 알람 앱
 - 멍멍이 수와 속도를 설정 가능하고 설정한 멍멍이를 전부 터치했을때 알람 종료
 - 알람을 끄는 속도가 늦어지면 화난 멍멍이의 소리가 나옴

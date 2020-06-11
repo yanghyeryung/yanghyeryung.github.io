@@ -4,7 +4,8 @@ title:  "양갤러리"
 date: 2020-06-03
 toyproject: true
 ---
-# [양갤러리](https://github.com/yanghyeryung/yang-gallery)
+## 깃 레파지토리
+[https://github.com/yanghyeryung/yang-gallery](https://github.com/yanghyeryung/yang-gallery)
 
 ## 설명
 - 양혜령의 그림을 볼 수 있는 갤러리 ^_^
